@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+    <title>Tree-Coverage Case Study</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1828362-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-1828362-1');
+    </script>
+
+    <style>
+        header.clearfix.mainheader {
+            height: 30vh;
+            background-attachment: scroll, fixed, fixed;
+            background-image: url('img/check-7.png'), linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(185, 150, 134, 0.1) 40%, rgba(0, 0, 0, 0.7)), url('img/background-5.png');
+            background-size: contain, cover, cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 20px;
+            padding: 3vh 0;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        #trc {
+            display: block;
+            height: 100%;
+            width: 500px;
+            margin: 0 auto;
+            text-indent: -9999px;
+        }
+
+
+        @media screen and (max-width: 700px) {
+            .logo {
+                width: 70px;
+            }
+            header.clearfix.mainheader {
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="clearfix mainheader">
+        <a href="https://caseytrees.org/" target="_blank">
+            <img class="logo mx-auto animated lightSpeedIn" src="img/logo_5.png"
+                alt="caseytrees.logo">
+        </a>
+        <a href="https://caseytrees.org/wp-content/uploads/2018/04/tree-report-card-2017.html" id="trc">Tree Report Card 2017</a>
+    </header>
+    <section id="executive-summary">
+        <section class="container">
+            <article style="padding: 7rem 0 2rem 0;">
+                <h2 style="padding-bottom: 1em;">Canopy Case Study: Emery Recreation Center</h2>
+                <p>
+                    The District's canopy cover is increasing because of tree planting and tree care events that are happening throughout D.C.
+                    year in and year out. One such planting site is Emery Recreation Center, where Casey Trees has helped
+                    add 1,573 square meters of canopy cover by planting 76 trees between 2005 and 2017. Additional street
+                    and park trees contributed by the Urban Forestry Division and the Department of Parks and Recreation
+                    also helped to increase Emery's canopy cover. In fact, despite the removal of some large but unhealthy
+                    trees, the tree canopy at Emery increased by roughly 4 percent. Below are some photos from our fall 2017
+                    planting season.</p>
+            </article>
+        </section>
+    </section>
+    <p style="text-align: center; font-size: 1em;">Community Tree Planting at Emery Recreation Center &mdash; December 12, 2017</p>
+    <div class="row" style="padding: 2em 2em 0 2em;">
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04318.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04318.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04277.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04277.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04309.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04309.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding: 0 2em;">
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04190.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04190.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04231.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04231.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="thumbnail">
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/DSC04263.jpg" target="_blank">
+                    <img src="https://caseytrees.org/wp-content/uploads/2018/04/DSC04263.jpg" alt="emery rec planting" style="width:100%">
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <blockquote style="max-width: 700px; margin: 2em auto;" class="wow fadeInRight">The map below shows the location, species and growth of the 76 trees that have been planted at Emery over the last
+            couple years.
+        </blockquote>
+        <img style="margin: 0 auto; width: 90%; padding-bottom: 2em;" src="img/emery-rec-center-legend.png">
+        <iframe height="800px" width="100%" src="https://arcg.is/1LjTfW"></iframe>
+    </section>
+    <section id="executive-summary">
+        <section class="container">
+            <article style="padding: 7rem 0 2rem 0;">
+                <p>Urban forests are living structures and over time the overall canopy, species variability and health of Emery
+                    will continue to increase. Of the 76 trees planted at Emery Recreation Center, 15 are oaks, 10 are elms,
+                    8 are pines, 6 are cyprus, 5 are maples, 5 are serviceberry, 5 are hollys, 5 are lindens, 3 are hackberries,
+                    3 are tuliptrees, 3 are black Locusts, 2 are Kentucky coffee trees, 2 are blackgums, 2 are plane trees,
+                    1 is an American yellowwood, and 1 is a walnut tree.</p>
+                &nbsp; &nbsp;
+                <canvas id="chart-treeprotection" width="200" height="200"></canvas>
+                <script>
+                    var ctx = document.getElementById("chart-treeprotection").getContext('2d');
+                    var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ["Oak", "Elm", "Pine", "Cyprus", "Maple", "Serviceberry", "Holly", "Linden", "Hackberry", "Tuliptree", "Black Locust", "other"],
+                            datasets: [{
+                                label: 'Emery Rec Tree Species',
+                                data: [15, 10, 8, 6, 5, 5, 5, 5, 3, 3, 3, 8],
+                                backgroundColor: [
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)'
+                                ],
+                                borderColor: [
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)',
+                                    'rgba(0, 160, 125, 1)',
+                                    'rgba(82, 200, 131, 1)',
+                                    'rgba(0, 200, 180, 1)'
+                                ],
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero: true
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                </script>
+                <p>Emery Recreation Center is just one example of how our collective efforts are re-treeing D.C. Multiplied
+                    across the District, these projects have led to a two percent increase in D.C.’s overall tree canopy
+                    &mdash; which represents an area about twice the size of the National Mall, or 700 football fields.
+                </p>
+
+                <a href="https://caseytrees.org/wp-content/uploads/2018/04/tree-report-card-2017.html#tree-coverage">
+                    <p>Back to Metrics Explained</p>
+                </a>
+            </article>
+        </section>
+    </section>
+    <img src="img/roots-1.png" width="100%">
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Casey Trees.</a> All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
